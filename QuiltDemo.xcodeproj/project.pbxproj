@@ -19,7 +19,51 @@
 		02E25B1D168B74B0009CA089 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 02E25B1C168B74B0009CA089 /* Default-568h@2x.png */; };
 		02E25B20168B74B0009CA089 /* RFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02E25B1F168B74B0009CA089 /* RFViewController.m */; };
 		02E25B23168B74B0009CA089 /* RFViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02E25B21168B74B0009CA089 /* RFViewController.xib */; };
+		87E394BC1BD928F300D41FD4 /* RFQuiltLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 87E394BB1BD928F300D41FD4 /* RFQuiltLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		87E394C31BD928F300D41FD4 /* RFQuiltLayout.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87E394B91BD928F300D41FD4 /* RFQuiltLayout.framework */; settings = {ASSET_TAGS = (); }; };
+		87E394CA1BD928F300D41FD4 /* RFQuiltLayoutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 87E394C91BD928F300D41FD4 /* RFQuiltLayoutTests.m */; };
+		87E394CE1BD928F300D41FD4 /* RFQuiltLayout.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87E394B91BD928F300D41FD4 /* RFQuiltLayout.framework */; };
+		87E394CF1BD928F300D41FD4 /* RFQuiltLayout.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 87E394B91BD928F300D41FD4 /* RFQuiltLayout.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		87E394D71BD9291800D41FD4 /* RFQuiltLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 0239B55B168BB0F4008B8AD6 /* RFQuiltLayout.m */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		87E394C41BD928F300D41FD4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 02E25AF9168B74B0009CA089 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 87E394B81BD928F300D41FD4;
+			remoteInfo = RFQuiltLayout;
+		};
+		87E394C61BD928F300D41FD4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 02E25AF9168B74B0009CA089 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 02E25B01168B74B0009CA089;
+			remoteInfo = QuiltDemo;
+		};
+		87E394CC1BD928F300D41FD4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 02E25AF9168B74B0009CA089 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 87E394B81BD928F300D41FD4;
+			remoteInfo = RFQuiltLayout;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		87E394D51BD928F300D41FD4 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				87E394CF1BD928F300D41FD4 /* RFQuiltLayout.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		0239B55A168BB0F4008B8AD6 /* RFQuiltLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RFQuiltLayout.h; path = RFQuiltLayout/RFQuiltLayout.h; sourceTree = SOURCE_ROOT; };
@@ -40,6 +84,12 @@
 		02E25B1E168B74B0009CA089 /* RFViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RFViewController.h; sourceTree = "<group>"; };
 		02E25B1F168B74B0009CA089 /* RFViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RFViewController.m; sourceTree = "<group>"; };
 		02E25B22168B74B0009CA089 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RFViewController.xib; sourceTree = "<group>"; };
+		87E394B91BD928F300D41FD4 /* RFQuiltLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RFQuiltLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		87E394BB1BD928F300D41FD4 /* RFQuiltLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RFQuiltLayout.h; sourceTree = "<group>"; };
+		87E394BD1BD928F300D41FD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87E394C21BD928F300D41FD4 /* RFQuiltLayoutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RFQuiltLayoutTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		87E394C91BD928F300D41FD4 /* RFQuiltLayoutTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RFQuiltLayoutTests.m; sourceTree = "<group>"; };
+		87E394CB1BD928F300D41FD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,9 +97,25 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87E394CE1BD928F300D41FD4 /* RFQuiltLayout.framework in Frameworks */,
 				026492D616D3628600992E42 /* CoreGraphics.framework in Frameworks */,
 				02E25B07168B74B0009CA089 /* UIKit.framework in Frameworks */,
 				02E25B09168B74B0009CA089 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87E394B51BD928F300D41FD4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87E394BF1BD928F300D41FD4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87E394C31BD928F300D41FD4 /* RFQuiltLayout.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,6 +126,8 @@
 			isa = PBXGroup;
 			children = (
 				02E25B0C168B74B0009CA089 /* QuiltDemo */,
+				87E394BA1BD928F300D41FD4 /* RFQuiltLayout */,
+				87E394C81BD928F300D41FD4 /* RFQuiltLayoutTests */,
 				02E25B05168B74B0009CA089 /* Frameworks */,
 				02E25B03168B74B0009CA089 /* Products */,
 			);
@@ -69,6 +137,8 @@
 			isa = PBXGroup;
 			children = (
 				02E25B02168B74B0009CA089 /* QuiltDemo.app */,
+				87E394B91BD928F300D41FD4 /* RFQuiltLayout.framework */,
+				87E394C21BD928F300D41FD4 /* RFQuiltLayoutTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -86,7 +156,6 @@
 		02E25B0C168B74B0009CA089 /* QuiltDemo */ = {
 			isa = PBXGroup;
 			children = (
-				02E25B29168B74C9009CA089 /* TVQuiltLayout */,
 				02E25B15168B74B0009CA089 /* RFAppDelegate.h */,
 				02E25B16168B74B0009CA089 /* RFAppDelegate.m */,
 				02E25B1E168B74B0009CA089 /* RFViewController.h */,
@@ -111,16 +180,38 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		02E25B29168B74C9009CA089 /* TVQuiltLayout */ = {
+		87E394BA1BD928F300D41FD4 /* RFQuiltLayout */ = {
 			isa = PBXGroup;
 			children = (
 				0239B55A168BB0F4008B8AD6 /* RFQuiltLayout.h */,
 				0239B55B168BB0F4008B8AD6 /* RFQuiltLayout.m */,
+				87E394BB1BD928F300D41FD4 /* RFQuiltLayout.h */,
+				87E394BD1BD928F300D41FD4 /* Info.plist */,
 			);
-			name = TVQuiltLayout;
+			path = RFQuiltLayout;
+			sourceTree = "<group>";
+		};
+		87E394C81BD928F300D41FD4 /* RFQuiltLayoutTests */ = {
+			isa = PBXGroup;
+			children = (
+				87E394C91BD928F300D41FD4 /* RFQuiltLayoutTests.m */,
+				87E394CB1BD928F300D41FD4 /* Info.plist */,
+			);
+			path = RFQuiltLayoutTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		87E394B61BD928F300D41FD4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87E394BC1BD928F300D41FD4 /* RFQuiltLayout.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		02E25B01168B74B0009CA089 /* QuiltDemo */ = {
@@ -130,15 +221,54 @@
 				02E25AFE168B74B0009CA089 /* Sources */,
 				02E25AFF168B74B0009CA089 /* Frameworks */,
 				02E25B00168B74B0009CA089 /* Resources */,
+				87E394D51BD928F300D41FD4 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				87E394CD1BD928F300D41FD4 /* PBXTargetDependency */,
 			);
 			name = QuiltDemo;
 			productName = QuiltDemo;
 			productReference = 02E25B02168B74B0009CA089 /* QuiltDemo.app */;
 			productType = "com.apple.product-type.application";
+		};
+		87E394B81BD928F300D41FD4 /* RFQuiltLayout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87E394D41BD928F300D41FD4 /* Build configuration list for PBXNativeTarget "RFQuiltLayout" */;
+			buildPhases = (
+				87E394B41BD928F300D41FD4 /* Sources */,
+				87E394B51BD928F300D41FD4 /* Frameworks */,
+				87E394B61BD928F300D41FD4 /* Headers */,
+				87E394B71BD928F300D41FD4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RFQuiltLayout;
+			productName = RFQuiltLayout;
+			productReference = 87E394B91BD928F300D41FD4 /* RFQuiltLayout.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		87E394C11BD928F300D41FD4 /* RFQuiltLayoutTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87E394D61BD928F300D41FD4 /* Build configuration list for PBXNativeTarget "RFQuiltLayoutTests" */;
+			buildPhases = (
+				87E394BE1BD928F300D41FD4 /* Sources */,
+				87E394BF1BD928F300D41FD4 /* Frameworks */,
+				87E394C01BD928F300D41FD4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				87E394C51BD928F300D41FD4 /* PBXTargetDependency */,
+				87E394C71BD928F300D41FD4 /* PBXTargetDependency */,
+			);
+			name = RFQuiltLayoutTests;
+			productName = RFQuiltLayoutTests;
+			productReference = 87E394C21BD928F300D41FD4 /* RFQuiltLayoutTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -149,6 +279,15 @@
 				CLASSPREFIX = RF;
 				LastUpgradeCheck = 0450;
 				ORGANIZATIONNAME = "Bryce Redd";
+				TargetAttributes = {
+					87E394B81BD928F300D41FD4 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					87E394C11BD928F300D41FD4 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 02E25B01168B74B0009CA089;
+					};
+				};
 			};
 			buildConfigurationList = 02E25AFC168B74B0009CA089 /* Build configuration list for PBXProject "QuiltDemo" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -163,6 +302,8 @@
 			projectRoot = "";
 			targets = (
 				02E25B01168B74B0009CA089 /* QuiltDemo */,
+				87E394B81BD928F300D41FD4 /* RFQuiltLayout */,
+				87E394C11BD928F300D41FD4 /* RFQuiltLayoutTests */,
 			);
 		};
 /* End PBXProject section */
@@ -180,6 +321,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		87E394B71BD928F300D41FD4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87E394C01BD928F300D41FD4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -194,7 +349,41 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		87E394B41BD928F300D41FD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87E394D71BD9291800D41FD4 /* RFQuiltLayout.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87E394BE1BD928F300D41FD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87E394CA1BD928F300D41FD4 /* RFQuiltLayoutTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		87E394C51BD928F300D41FD4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 87E394B81BD928F300D41FD4 /* RFQuiltLayout */;
+			targetProxy = 87E394C41BD928F300D41FD4 /* PBXContainerItemProxy */;
+		};
+		87E394C71BD928F300D41FD4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 02E25B01168B74B0009CA089 /* QuiltDemo */;
+			targetProxy = 87E394C61BD928F300D41FD4 /* PBXContainerItemProxy */;
+		};
+		87E394CD1BD928F300D41FD4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 87E394B81BD928F300D41FD4 /* RFQuiltLayout */;
+			targetProxy = 87E394CC1BD928F300D41FD4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		02E25B0F168B74B0009CA089 /* InfoPlist.strings */ = {
@@ -238,7 +427,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -259,7 +448,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -272,7 +461,8 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "QuiltDemo/QuiltDemo-Prefix.pch";
 				INFOPLIST_FILE = "QuiltDemo/QuiltDemo-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
@@ -285,10 +475,151 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "QuiltDemo/QuiltDemo-Prefix.pch";
 				INFOPLIST_FILE = "QuiltDemo/QuiltDemo-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		87E394D01BD928F300D41FD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				INFOPLIST_FILE = RFQuiltLayout/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fifteenjugglers.RFQuiltLayout;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		87E394D11BD928F300D41FD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				INFOPLIST_FILE = RFQuiltLayout/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fifteenjugglers.RFQuiltLayout;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		87E394D21BD928F300D41FD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				INFOPLIST_FILE = RFQuiltLayoutTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fifteenjugglers.RFQuiltLayoutTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuiltDemo.app/QuiltDemo";
+			};
+			name = Debug;
+		};
+		87E394D31BD928F300D41FD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				INFOPLIST_FILE = RFQuiltLayoutTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fifteenjugglers.RFQuiltLayoutTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuiltDemo.app/QuiltDemo";
 			};
 			name = Release;
 		};
@@ -312,6 +643,22 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		87E394D41BD928F300D41FD4 /* Build configuration list for PBXNativeTarget "RFQuiltLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87E394D01BD928F300D41FD4 /* Debug */,
+				87E394D11BD928F300D41FD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		87E394D61BD928F300D41FD4 /* Build configuration list for PBXNativeTarget "RFQuiltLayoutTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87E394D21BD928F300D41FD4 /* Debug */,
+				87E394D31BD928F300D41FD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};

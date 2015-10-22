@@ -7,6 +7,11 @@
 
 #import <UIKit/UIKit.h>
 
+//! Project version number for CLTokenInput.
+FOUNDATION_EXPORT double RFQuiltLayoutVersionNumber;
+
+//! Project version string for CLTokenInput.
+FOUNDATION_EXPORT const unsigned char RFQuiltLayoutVersionString[];
 
 @protocol RFQuiltLayoutDelegate <UICollectionViewDelegate>
 @optional
